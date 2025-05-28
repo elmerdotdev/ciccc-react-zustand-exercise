@@ -23,6 +23,7 @@
 6. Create a form below the list with three input fields (one for firstname, one for lastname, and one for age).
 7. Create a list of checkboxes for hobbies.
 8. Clicking the **Add User** button will add the new user to the users array.
-9. Commit and push your changes.
+9. *BONUS:* Try wrapping your store using the `persist` function of Zustand so that the data gets stored in local storage.
+10. Commit and push your changes.
 
 Good luck! 🎉🎉🎉
