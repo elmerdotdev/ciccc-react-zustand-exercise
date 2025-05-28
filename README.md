@@ -1,14 +1,28 @@
-# E-0923 React Zustand Exercise
+# React JS - Zustand Exercise
 
-1. Create a React project called 'zustand-practice'. Make sure you are in the dev branch
-2. Create a store called userStore that has these states:
-*firstname (string)*
-*lastname (string)*
-*age (number)*
-*hobbies (array)*
-*setFirstname (function)*
-*setLastname (function)*
-3. In your User component, output all the states. Use map for the hobbies since it's an array
-4. Create a form with two input fields (one for firstname and one for lastname)
-5. Clicking the submit button will update the firstname and lastname states in your Zustand store
-6. Push your final code and create a pull request from dev to master to merge
+**Goal:** Implement global state management with React and Zustand.
+
+## Instructions 📖
+
+1. Create a React project called by running `npm create vite@latest zustand-exercise`.
+2. Create a `user.store.ts` inside your `stores` directory that has these states:
+
+    - `users` (array of User)
+    - `addUser` (function)
+    - `deleteUser` (function)
+  
+  Here are the type `User` object properties:
+
+    - `firstname` (string)
+    - `lastname` (string)
+    - `age` (number)
+    - `hobbies` (string array)
+
+4. In your `User.tsx` component, output all the list of users in a list.
+5. In each list, create a **Delete** button which triggers the `deleteUser` function from the store.
+6. Create a form below the list with three input fields (one for firstname, one for lastname, and one for age).
+7. Create a list of checkboxes for hobbies.
+8. Clicking the **Add User** button will add the new user to the users array.
+9. Commit and push your changes.
+
+Good luck! 🎉🎉🎉
