@@ -11,7 +11,7 @@
     - `addUser` (function)
     - `deleteUser` (function)
   
-  Here are the type `User` object properties:
+   Here are the type `User` object properties:
 
     - `firstname` (string)
     - `lastname` (string)
