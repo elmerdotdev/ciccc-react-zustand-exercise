@@ -13,6 +13,7 @@
   
    Here are the type `User` object properties:
 
+    - `id` (uuid string)
     - `firstname` (string)
     - `lastname` (string)
     - `age` (number)
